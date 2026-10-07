@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" fill="none">
+  <title>A connected institution</title>
+  <desc>An architectural illustration linking teaching spaces, school operations and campus connectivity.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse" patternTransform="matrix(.866 .5 -.866 .5 290 100)">
+      <path d="M36 0H0V36" stroke="#9abbab" stroke-opacity=".12" stroke-width=".8"/>
+    </pattern>
+    <linearGradient id="ground" x1="300" y1="140" x2="300" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#315849" stop-opacity=".3"/><stop offset="1" stop-color="#183f32" stop-opacity=".05"/>
+    </linearGradient>
+  </defs>
+  <path d="M36 270 294 120 565 276 307 426Z" fill="url(#ground)" stroke="#71927e" stroke-opacity=".25"/>
+  <path d="M19 9H582V420H19Z" fill="url(#grid)"/>
+  <g stroke="#6d927e" stroke-opacity=".46" stroke-linejoin="round">
+    <path d="m88 280 112-65 88 51-112 65Z" fill="#1b4939"/>
+    <path d="m88 280 88 51v17l-88-51Z" fill="#123628"/>
+    <path d="m176 331 112-65v17l-112 65Z" fill="#214e3d"/>
+    <path d="m332 230 84-49 104 60-84 49Z" fill="#204c3d"/>
+    <path d="m332 230 104 60v15l-104-60Z" fill="#133b2c"/>
+    <path d="m436 290 84-49v15l-84 49Z" fill="#284f40"/>
+  </g>
+  <g stroke="#e7e5ce" stroke-width="1.25" stroke-linejoin="round">
+    <path d="m208 164 91-53 97 56-91 53Z" fill="#315c49"/>
+    <path d="m208 164 97 56v89l-97-56Z" fill="#1b4634"/>
+    <path d="m305 220 91-53v89l-91 53Z" fill="#284f3d"/>
+    <path d="m198 161 101-59 107 62-101 59Z" fill="#597560"/>
+    <path d="m231 161 67-39 74 43-67 39Z" fill="#214b39" stroke="#b4c5a8"/>
+    <path d="m238 162 60-35 67 39M246 158l67 39m-48-51 67 39m-48-50 67 39" stroke="#b4c5a8" stroke-opacity=".42"/>
+    <path d="m112 238 68-40 69 40-68 40Z" fill="#607e64"/>
+    <path d="m112 238 69 40v54l-69-40Z" fill="#244f3a"/>
+    <path d="m181 278 68-40v54l-68 40Z" fill="#365e47"/>
+    <path d="m351 197 63-37 78 45-63 37Z" fill="#637e64"/>
+    <path d="m351 197 78 45v50l-78-45Z" fill="#254c39"/>
+    <path d="m429 242 63-37v50l-63 37Z" fill="#385f48"/>
+    <path d="m123 229 57-33 58 33-57 33Z" fill="#244b38" stroke="#b4c5a8"/>
+    <path d="m362 192 52-30 64 37-52 30Z" fill="#244b38" stroke="#b4c5a8"/>
+  </g>
+  <g stroke="#c8d2b9" stroke-width="1.15" stroke-opacity=".75">
+    <path d="m227 199 13 8v19l-13-8Zm25 15 13 8v19l-13-8Zm25 15 13 8v19l-13-8Z"/>
+    <path d="m227 234 13 8v19l-13-8Zm25 15 13 8v19l-13-8Zm25 15 13 8v19l-13-8Z"/>
+    <path d="m320 226 14-8v18l-14 8Zm24-14 14-8v18l-14 8Zm24-14 14-8v18l-14 8Z"/>
+    <path d="m320 261 14-8v18l-14 8Zm24-14 14-8v18l-14 8Zm24-14 14-8v18l-14 8Z"/>
+    <path d="m126 263 12 7v15l-12-7Zm22 13 12 7v15l-12-7Zm45 13 13-8v16l-13 8Zm24-14 13-8v16l-13 8Z"/>
+    <path d="m365 222 13 7v14l-13-7Zm23 13 13 7v14l-13-7Zm53 15 13-8v15l-13 8Zm24-14 13-8v15l-13 8Z"/>
+  </g>
+  <g stroke="#c9ab71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m180 350 86 50 154-89" stroke-dasharray="3 6"/>
+    <path d="m303 322-1 57 118-68"/>
+    <path d="m180 350 122 29"/>
+    <circle cx="180" cy="350" r="4.5" fill="#d8c393"/>
+    <circle cx="302" cy="379" r="5" fill="#d8c393"/>
+    <circle cx="420" cy="311" r="4.5" fill="#d8c393"/>
+    <path d="M302 82V37m-10 48 10-20 10 20m-7-24 14-22"/>
+    <path d="M281 43a29 29 0 0 1 42 0M273 33a41 41 0 0 1 58 0M265 23a53 53 0 0 1 74 0" stroke-opacity=".8"/>
+  </g>
+  <g fill="#b0bda2" stroke="#476d50" stroke-width="1">
+    <path d="M81 195v34" stroke="#b9c3a7"/>
+    <path d="m81 160-17 27 7 14h20l8-14Z" fill="#527452"/>
+    <path d="M524 299v32" stroke="#b9c3a7"/>
+    <path d="m524 266-17 25 8 15h18l9-15Z" fill="#527452"/>
+    <path d="M100 343v30" stroke="#b9c3a7"/>
+    <path d="m100 312-15 24 7 12h17l7-12Z" fill="#527452"/>
+  </g>
+  <g stroke="#b9c3a7" stroke-opacity=".48" stroke-width=".8">
+    <path d="M65 84h55M65 84v30M530 146h-35M530 146v-30"/>
+    <circle cx="66" cy="84" r="2" fill="#b9c3a7"/>
+    <circle cx="530" cy="146" r="2" fill="#b9c3a7"/>
+  </g>
+</svg>

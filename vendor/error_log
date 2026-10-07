@@ -1,0 +1,4 @@
+[20-Dec-2025 23:26:42 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer' not found in /home/schelps4/public_html/vendor/contact-mailer.php:253
+Stack trace:
+#0 {main}
+  thrown in /home/schelps4/public_html/vendor/contact-mailer.php on line 253
