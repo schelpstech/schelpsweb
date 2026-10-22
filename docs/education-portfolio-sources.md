@@ -74,7 +74,7 @@ company footer, product and project links, and policy routes:
 - `about.html`: company story, existing vision/mission/purpose and education engagements.
 - `services.html`: four business areas plus existing development, automation,
   ICT training and digital communication capabilities.
-- `products.html`: LearnAble, Examinify, ScoresReport, School Bookshop Software
+- `products.html`: LearnAble, AcademyCore, ScoresReport, School Bookshop Software
   and SCHELPS Teachinn. No unsupported features or product pricing were added.
 - `projects.html` and `learnable.html`: portfolio and source-backed product details.
 - `contact.html`: labelled enquiry form, original email/phone/address and map.
@@ -164,3 +164,49 @@ Preload links and the stylesheet version were updated together. All eight pages
 were rechecked at 320px, 390px and 768px without horizontal overflow; the desktop
 homepage was visually reviewed. The design and existing site behaviour are retained.
 The Ubuntu desktop preview is `docs/previews/ubuntu-homepage-desktop.jpg`.
+
+## Education technology positioning - 22 October 2026
+
+The owner clarified that SCHELPS is an education technology firm. This supersedes
+the earlier website-development-led positioning while retaining the approved
+visual design and Ubuntu typography. The homepage, page metadata, company
+introduction, services order, contact messaging and all eight footers now lead
+with education technology. LearnAble and OWUTECH replace client website
+screenshots as the primary homepage showcases. CRSM and Ogun State education
+data services provide further education portfolio links. Their new graphics
+are labelled capabilities/scope overviews, not actual application screenshots.
+
+The core service areas are school operations, learning and assessment, connected
+campuses and education data. Institutional websites remain a supporting service
+and the existing website project records are retained. Existing testimonial
+wording is preserved, with the CBT review shown first. Forms retain their field
+names and mailer contract; the general website-design subject is removed while
+the institutional-website subject remains available.
+
+Validation for this positioning update: all eight HTML pages and the updated
+stylesheet return HTTP 200 locally. All 235 local references and anchors pass;
+IDs are unique, each page has one H1, and enquiry controls retain their labels.
+All eight pages fit at 390px. Homepage, Services and Contact also fit at 320px,
+768px and 1440px. Desktop hero and education showcases were visually reviewed;
+no browser console errors were captured. Updated previews use the `education-`
+prefix in `docs/previews/`. Production deployment has not been performed.
+
+## AcademyCore product listing - 22 October 2026
+
+AcademyCore is listed on Products as a configurable academy and professional
+training platform. Its description is grounded in `C:/Ampps/www/sps/README.md`
+and `C:/Ampps/www/sps/docs/ACADEMYCORE_FINAL_RELEASE_REPORT.md`: enrolment,
+learner and instructor workspaces, CBT, certificates and corporate training.
+The source project is currently a release candidate with production acceptance
+gates outstanding; the listing offers a demonstration and makes no claim of
+production readiness, live payment availability or customer adoption.
+
+The card links to `contact.html?subject=AcademyCore`. AcademyCore is included
+in the existing enquiry subject allowlist, and the shared script cache version
+is updated across all eight pages. No AcademyCore source or deployment was changed.
+
+## Product catalogue removal - 22 October 2026
+
+At the owner's request, Examinify was removed from the public product catalogue,
+page descriptions and enquiry subject allowlist. Remaining product cards were
+renumbered, and the shared script cache version was refreshed across all pages.

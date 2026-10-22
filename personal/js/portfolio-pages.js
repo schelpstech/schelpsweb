@@ -56,7 +56,7 @@ document.querySelectorAll("[data-current-year]").forEach((year) => {
 document.querySelectorAll("[data-contact-form]").forEach((form) => {
     const subject = form.querySelector('[name="userSubject"]');
     const requestedSubject = new URLSearchParams(window.location.search).get("subject");
-    const productSubjects = ["Examinify", "ScoresReport", "School Bookshop Software", "SCHELPS Teachinn"];
+    const productSubjects = ["AcademyCore", "ScoresReport", "School Bookshop Software", "SCHELPS Teachinn"];
     if (subject && productSubjects.includes(requestedSubject)) {
         const option = document.createElement("option");
         option.value = requestedSubject;

@@ -422,11 +422,6 @@ p{line-height:1.8}
 .service-card ul{font-size:12px}
 .service-card .module-number{font-size:9px;letter-spacing:.06em}
 .service-card .text-link{align-self:flex-start;margin-top:auto}
-#website-development{background:var(--night);color:white;grid-column:1/-1;position:relative;padding-right:30%;background-image:radial-gradient(ellipse at top right,#51793640,transparent 60%)}
-#website-development p,#website-development li{color:#aab8ab}
-#website-development .module-number{color:var(--accent)}
-#website-development .text-link{color:var(--accent);border-color:#647d54}
-#website-development:after{content:"</>";position:absolute;right:7%;top:25%;font-size:90px;letter-spacing:-.12em;color:#c4f66a88;font-weight:400}
 .module-grid{gap:22px}
 .module{border-radius:12px;padding:30px;border-color:#dce5d6;background:white}
 .module h3{font-size:1.25rem;font-weight:600}
@@ -463,3 +458,27 @@ p{line-height:1.8}
 @media(max-width:760px){.studio-hero .actions{gap:10px}.studio-hero .button{padding:12px 16px}.digital-art{height:320px}.art-label{bottom:64px}}
 @media(max-width:380px){.studio-hero h1{font-size:8.5vw}.studio-hero .button{padding:10px 12px}.digital-art{height:295px}}
 @media(max-width:760px){.contact-hero:before{display:none}.field input,.field select,.field textarea{font-size:16px}.field label{font-size:12px}}
+
+/* Education platforms and institutional work lead the portfolio. */
+.education-preview{padding:32px;flex-direction:column;justify-content:space-between;gap:22px;aspect-ratio:auto}
+.preview-meta{display:flex;justify-content:space-between;gap:14px;width:100%;padding-right:32px;font-size:9px;line-height:1.5;color:#61725a;letter-spacing:.06em}
+.preview-meta>span:first-child{font-weight:700}
+.preview-meta>span:last-child{font-size:8px;letter-spacing:0}
+.preview-brand{display:flex;align-items:center;gap:18px;width:100%}
+.preview-symbol{display:grid;place-items:center;flex-shrink:0;width:64px;height:64px;background:#c4e6a7;color:#2e4c23;border-radius:14px;font-size:35px;font-weight:500;letter-spacing:-.11em;padding-right:7px;box-shadow:inset 0 0 0 1px #accd9455}
+.preview-brand strong{display:block;font-size:30px;font-weight:500;line-height:1.2;letter-spacing:-.035em;color:#213d26}
+.preview-brand div>span{display:block;font-size:11px;margin-top:7px;color:#62775b;line-height:1.5}
+.education-modules{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%}
+.education-modules>span{display:flex;align-items:center;gap:12px;border:1px solid #bacaaf;background:#f8fcf28f;border-radius:8px;padding:14px 12px;font-size:12px;color:#405e35}
+.education-modules b{font-size:19px;font-weight:400;width:22px;text-align:center}
+.preview-bottom{width:100%;border-top:1px solid #bacaaf;padding-top:14px;font-size:9px;line-height:1.6;color:#62775b}
+.preview-academic .preview-symbol{background:#c5d1e3;color:#314b6c;box-shadow:inset 0 0 0 1px #9aadc955}
+.preview-academic .preview-brand strong{font-size:25px;color:#273e5b}
+.preview-academic .preview-brand div>span,.preview-academic .preview-meta,.preview-academic .preview-bottom{color:#657790}
+.preview-academic .preview-bottom{border-color:#b9c8d9}
+.academic-path{display:grid;gap:9px;width:100%}
+.academic-path>span{display:flex;gap:14px;align-items:center;padding:10px 14px;border:1px solid #bdcbdc;background:#f4f8ff80;border-radius:7px;font-size:12px;color:#405979}
+.academic-path b{font-size:10px;font-weight:500;color:#7f91aa}
+@media(max-width:1000px){.education-preview{height:370px;padding:25px;gap:20px}.preview-brand{gap:12px}.preview-brand strong{font-size:26px}.preview-academic .preview-brand strong{font-size:22px}.preview-symbol{width:55px;height:55px;font-size:29px}.education-modules>span{font-size:10px;padding:11px 9px;gap:7px}.academic-path>span{font-size:11px}.preview-meta{font-size:8px;gap:10px}.preview-meta>span:last-child{font-size:7px}}
+@media(max-width:760px){.education-preview{height:345px;min-height:345px;padding:25px;gap:18px;aspect-ratio:auto}.preview-brand strong{font-size:27px}.preview-academic .preview-brand strong{font-size:22px}.education-modules>span{font-size:11px}.academic-path>span{font-size:11px}.preview-bottom{font-size:8px}}
+@media(max-width:380px){.education-preview{height:335px;min-height:335px;padding:22px}.preview-symbol{width:47px;height:47px;font-size:26px;border-radius:10px}.preview-brand strong{font-size:25px}.preview-academic .preview-brand strong{font-size:20px}.preview-brand div>span{font-size:10px}.education-modules{gap:8px}.education-modules>span{font-size:9px;padding:11px 8px;gap:6px}.academic-path>span{font-size:10px;padding:10px}.preview-meta{padding-right:30px;font-size:7px}.preview-meta>span:last-child{font-size:7px}.preview-bottom{font-size:7px}}
